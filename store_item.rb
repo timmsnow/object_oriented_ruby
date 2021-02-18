@@ -26,7 +26,7 @@ end
 
 class Food < Breakfast
   def initialize
-    @shelf - life
+    @shelf_life = "5 days"
   end
 end
 
