@@ -24,6 +24,12 @@ class Breakfast
   end
 end
 
+class Food < Breakfast
+  def initialize
+    @shelf - life
+  end
+end
+
 breakfast1 = Breakfast.new(food_item: "muffin", size: "large", flavor: "banana nut", price: 5)
 breakfast2 = Breakfast.new(food_item: "cookie", size: "x-large", flavor: "macadamia nut", price: 15)
 breakfast3 = Breakfast.new(food_item: "croissant", size: "tiny", flavor: "nutella", price: 4)
